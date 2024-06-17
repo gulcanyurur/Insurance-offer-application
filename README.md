@@ -12,7 +12,7 @@ Microsoft SQL Server 2019: Chosen as the database management system for its high
 Swagger 6.6.1: Integrated for API documentation. Swagger allows visualizing and testing API endpoints, accelerating the development process and improving communication among developers.
 Project Layers
 
-The project is structured into the following layers:
+**The project is structured into the following layers:**
 
 Entities Layer: Contains the data models used in the application.
 DataAccess Layer: Includes the code for database operations.
@@ -24,6 +24,7 @@ Business Layer
 In this layer, I implemented the business logic and service layer of the application. Business services interact with the data access layer (DAL) to apply business logic, including various business rules and validation processes.
 
 PaymentManager: Handles payment operations. Here, I ensure secure payment processes by masking card information and verifying the Turkish ID number (TC) for added security.
+
 **Conclusion**
 
 I developed a comprehensive and modular API for insurance management in this project. By adhering to a layered architecture, utilizing Entity Framework Core, and adopting a service-based structure, I aimed to create a scalable and maintainable system. Clearly defining responsibilities for each layer has streamlined project management and maintenance efforts. This project adheres to modern software development principles, delivering high performance and flexibility.
