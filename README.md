@@ -19,7 +19,8 @@ DataAccess Layer: Includes the code for database operations.
 Core Layer: Houses fundamental infrastructure and utility classes.
 Business Layer: Implements business logic and services.
 WebAPI Layer: Contains API controllers and application configurations.
-Business Layer
+
+**Business Layer**
 
 In this layer, I implemented the business logic and service layer of the application. Business services interact with the data access layer (DAL) to apply business logic, including various business rules and validation processes.
 
